@@ -21,9 +21,7 @@
 
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico"/>
 
-<link rel="preload" as="font" href="fonts/iJWKBXyIfDnIV7nBrXw.woff2" type="font/woff2" crossorigin>
-<link rel="preload" as="font" href="fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" type="font/woff2" crossorigin>
-<link rel="preload" as="font" href="fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="fonts/NobelBook.woff" type="font/woff2" crossorigin>
 <link rel="preload" as="style" href="css/rancak.css?<?php echo $anticache; ?>">
 
 <style><?php require ($_SERVER['LEXUS'].'css/font.css')?></style>
