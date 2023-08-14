@@ -27,33 +27,6 @@ function CopyLink(){
 
 
 
-/* scroll script */
-function all_scroll(){
-  $(window).scroll(function(){
-    var scroll_position = $(window).scrollTop();
-
-    if(scroll_position >= 1){
-      $('#btt').css("display","flex");	
-    }
-
-    else{
-      $('#btt').hide();
-    }
-  });  
-}
-/* end scroll script */
-
-
-
-function back_to_top(){
-  $('#btt').click(function(){
-	$('body,html').scrollTop(0);
-    return false;
-  });	
-}
-
-
-
 function open_sticky(){
   $('.open-sticky').click(function(){
     var get_id = $(this).attr('title');
@@ -91,8 +64,6 @@ function close_share(){
 
 $(document).ready(function(){
   "use strict";
-  all_scroll();
-  back_to_top();
   open_sticky();
   close_menu();
   close_share();

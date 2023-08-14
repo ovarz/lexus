@@ -25,7 +25,7 @@ body, html{font-family:'Nobel Book',sans-serif; font-weight:500; letter-spacing:
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; background-color:var(--bg-1);}
-body{overflow-x:hidden; background-color:var(--bg-2); min-height:200vh;}
+body{overflow-x:hidden; background-color:var(--bg-2);}
 .btn, a.btn, button.btn{padding:var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .rancak-popup{display:none;}
@@ -43,11 +43,15 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 header{--icon-size:var(--size-4); position:sticky; top:0; z-index:calc(var(--max-zindex) - 5000); width:100%; background-color:var(--bg-3);
 display:flex; justify-content:space-between;}
 .header-split{display:flex;}
-.header-link{height:var(--size-6); padding:0 var(--size-3);}
+.header-link{height:var(--size-6); padding:0 var(--size-3); color:var(--bg-2); fill:var(--bg-2);}
 .header-left .header-link:first-child{padding-left:var(--size-4);}
 .header-right .header-link:last-child{padding-right:var(--size-4);}
 .header-link .svgicon{width:auto; height:var(--icon-size);}
 .header-profile-thumb{width:var(--icon-size); height:var(--icon-size);}
+
+
+
+.rancak-container{min-height:calc(100vh - var(--size-6));}
 
 
 
