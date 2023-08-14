@@ -46,8 +46,7 @@ header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat
 
 
 
-footer{background-color:var(--bg-3); color:var(--bg-2); padding:var(--size-4); font-size:0.75rem; text-align:center;}
-footer *{}
+footer{background-color:var(--bg-3); color:var(--bg-2); padding:var(--size-4); font-size:0.85rem; text-align:center;}
 
 
 
