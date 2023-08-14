@@ -39,7 +39,7 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-header{background:url("../img/header-bg.jpg") no-repeat center;}
+header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat; background-position:center;}
 .header-link{color:var(--bg-2); fill:var(--bg-2);}
 .header-profile-thumb{border-radius:50%; overflow:hidden;}
 
