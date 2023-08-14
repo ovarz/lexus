@@ -52,6 +52,19 @@ display:flex; justify-content:space-between;}
 
 
 .rancak-container{min-height:calc(100vh - var(--size-6));}
+.section-container{padding:var(--size-4) 0;}
+.section-title{display:flex; justify-content:space-between; align-items:center; margin-bottom:var(--size-4);}
+.section-title-label{font-size:1.25rem; text-transform:uppercase;}
+.section-container .section-title, .content-container{padding:0 var(--size-4);}
+
+
+
+.lexus-product-container{padding:0 var(--size-3); padding-bottom:var(--size-5);}
+.lexus-product-box{width:37vw; max-width:265px; margin:0 var(--size-2); padding:var(--size-3); position:relative;}
+.lpb-name{text-transform:uppercase; font-weight:bold;}
+.lpb-frame:before{content:''; display:block; padding-top:40%;}
+.lpb-car{overflow:inherit; position:absolute; bottom:calc(var(--size-5) * -1); right:0;}
+.lpb-car img{position:relative; overflow:inherit; height:auto; max-height:125px; object-position:right;}
 
 
 
