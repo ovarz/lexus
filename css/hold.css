@@ -26,7 +26,7 @@ body, html{color:var(--color-default-1);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-default-2); fill:var(--color-default-2);}
 a:hover, button:hover{color:var(--color-default-3); fill:var(--color-default-3);}
-.btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-3);}
+.btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-default-2);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
@@ -42,10 +42,20 @@ header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat
 
 
 
+.search-field{border-color:var(--color-border); border-radius:var(--rounded-1);}
+
+
+
 .lexus-product-box{background-color:var(--bg-1); border-radius:var(--rounded-1); color:var(--color-default-2);}
 .lexus-product-box:hover{color:var(--color-default-2); opacity:var(--hover-opacity);}
 .lpb-electric{background-color:var(--color-default-3); color:var(--bg-2);
 background:linear-gradient(to bottom, var(--color-default-4) 0%, var(--color-default-3) 100%);}
+
+
+
+.fcl-header{background-color:var(--color-border);}
+.fcl-content, .fcl-content-row{border-color:var(--color-border);}
+.fcl-name, .fcl-label, .fcl-payment{color:var(--color-default-2);}
 
 
 

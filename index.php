@@ -53,7 +53,7 @@
         $homemenu_array[]=array('product_title'=>'LMS','product_icon'=>'4','product_desc'=>'Manage Your Leads','product_link'=>'lms');
         foreach($homemenu_array as $homemenu_list){
       ?>
-        <a aria-label="Link_Title" title="Link_Title" class="home-menu-box" href="">
+        <a aria-label="Link_Title" title="Link_Title" class="home-menu-box" href="<?php echo($homemenu_list['product_link'])?>">
           <div class="hmb-title"><?php echo($homemenu_list['product_title'])?></div>
           <div class="hmb-icon content_center"><?php require ($_SERVER['LEXUS'].'img/icon/homemenu-'.$homemenu_list['product_icon'].'.svg')?></div>
           <div class="hmb-desc"><?php echo($homemenu_list['product_desc'])?></div>
