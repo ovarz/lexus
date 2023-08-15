@@ -47,10 +47,10 @@
 	<div class="content-container home-menu-container">
       <?php 
         $homemenu_array = array();
-        $homemenu_array[]=array('product_title'=>'Finance Calculator','product_icon'=>'1','product_desc'=>'Personalized your own Lexus');
-        $homemenu_array[]=array('product_title'=>'Mobile Stockboard','product_icon'=>'2','product_desc'=>'Monitor Unit Availability');
-        $homemenu_array[]=array('product_title'=>'Learning Material','product_icon'=>'3','product_desc'=>'To Lexus Inspire');
-        $homemenu_array[]=array('product_title'=>'LMS','product_icon'=>'4','product_desc'=>'Manage Your Leads');
+        $homemenu_array[]=array('product_title'=>'Finance Calculator','product_icon'=>'1','product_desc'=>'Personalized your own Lexus','product_link'=>'finance-calculator');
+        $homemenu_array[]=array('product_title'=>'Mobile Stockboard','product_icon'=>'2','product_desc'=>'Monitor Unit Availability','product_link'=>'mobile-stockboard');
+        $homemenu_array[]=array('product_title'=>'Learning Material','product_icon'=>'3','product_desc'=>'To Lexus Inspire','product_link'=>'learning-material');
+        $homemenu_array[]=array('product_title'=>'LMS','product_icon'=>'4','product_desc'=>'Manage Your Leads','product_link'=>'lms');
         foreach($homemenu_array as $homemenu_list){
       ?>
         <a aria-label="Link_Title" title="Link_Title" class="home-menu-box" href="">
