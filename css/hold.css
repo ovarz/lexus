@@ -4,6 +4,7 @@
   --color-default-1:#757575; 
   --color-default-2:#212121;
   --color-default-3:#081E60;
+  --color-default-4:#3C6CCC;
   --color-border:#E0E0E0; 
   --color-fb:#1877f2;
   --color-tw:#00acec;
@@ -42,7 +43,8 @@ header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat
 
 
 .lexus-product-box{background-color:var(--bg-1); border-radius:var(--rounded-1); color:var(--color-default-2);}
-.lpb-electric{background-color:var(--color-default-3); color:var(--bg-2);}
+.lpb-electric{background-color:var(--color-default-3); color:var(--bg-2);
+background:linear-gradient(to bottom, var(--color-default-4) 0%, var(--color-default-3) 100%);}
 
 
 
