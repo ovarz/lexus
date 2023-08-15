@@ -13,7 +13,7 @@
   --rounded-1:var(--size-1);
   --rounded-2:var(--size-2);
   --rounded-3:var(--size-4);
-  --hover-opacity:0.34;
+  --hover-opacity:0.55;
   --transition-default:all 0.34s;
   --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
   --shadow-neumorp:-2px -2px 4px rgba(255,255,255,.2), 2px 2px 12px rgba(0,0,0,.2);
@@ -37,12 +37,13 @@ a:hover, button:hover{color:var(--color-default-3); fill:var(--color-default-3);
 
 
 header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat; background-position:center;}
-.header-link{}
+.header-link:hover{color:var(--bg-2); fill:var(--bg-2); opacity:var(--hover-opacity);}
 .header-profile-thumb{border-radius:50%; overflow:hidden;}
 
 
 
 .lexus-product-box{background-color:var(--bg-1); border-radius:var(--rounded-1); color:var(--color-default-2);}
+.lexus-product-box:hover{color:var(--color-default-2); opacity:var(--hover-opacity);}
 .lpb-electric{background-color:var(--color-default-3); color:var(--bg-2);
 background:linear-gradient(to bottom, var(--color-default-4) 0%, var(--color-default-3) 100%);}
 

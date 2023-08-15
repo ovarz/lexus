@@ -10,7 +10,7 @@
     </a>
   </div>
   <div class="header-split header-right">
-    <a aria-label="Profile" title="Profile" class="header-link header-profile content_center" href="profile.php">
+    <a aria-label="Profile" title="Profile" class="header-link header-profile content_center" href="profile/">
       <div class="header-profile-thumb flex_ori thumb-loading">
 	    <img alt="img_title" class="lazyload" data-original="img/profile-default.jpg" />
 	  </div>
