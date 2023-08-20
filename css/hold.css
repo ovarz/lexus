@@ -5,6 +5,7 @@
   --color-default-2:#212121;
   --color-default-3:#081E60;
   --color-default-4:#3C6CCC;
+  --color-default-5:#C53F57;
   --color-border:#E0E0E0; 
   --color-fb:#1877f2;
   --color-tw:#00acec;
@@ -46,6 +47,21 @@ header{background-image:url("../img/header-bg.jpg"); background-repeat:no-repeat
 
 
 
+.default-tab{background-color:var(--color-border);}
+.default-tab-button{border-color:transparent;}
+.default-tab-button:hover{background-color:rgb(var(--color-border-dark) / 13%);}
+.default-tab-curr{background-color:transparent !important; border-color:var(--color-default-2);}
+
+
+
+button.bab-delete{background-color:var(--color-default-5);}
+
+
+
+.float-total-box{background-color:var(--bg-2); box-shadow:var(--shadow-default); color:var(--color-default-2);}
+
+
+
 .lexus-product-box{background-color:var(--bg-1); border-radius:var(--rounded-1); color:var(--color-default-2);}
 .lexus-product-box:hover{color:var(--color-default-2); opacity:var(--hover-opacity);}
 .lpb-electric{background-color:var(--color-default-3); color:var(--bg-2);
@@ -56,6 +72,12 @@ background:linear-gradient(to bottom, var(--color-default-4) 0%, var(--color-def
 .fcl-header{background-color:var(--color-border);}
 .fcl-content, .fcl-content-row{border-color:var(--color-border);}
 .fcl-name, .fcl-label, .fcl-payment{color:var(--color-default-2);}
+
+.dfhc-name{color:var(--color-default-2);}
+
+.detail-finance-calculator-content{color:var(--color-default-2); border-color:var(--color-border);}
+.dfcc-delete{fill:var(--color-default-5);}
+.dfcc-button:hover{fill:var(--color-default-4);}
 
 
 

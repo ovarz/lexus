@@ -30,7 +30,7 @@
         <?php for ($i=1; $i <= 5; $i++) { ?>
           <div class="fcl-box">
             <div class="fcl-header">
-              <div class="fcl-name content_center"><b>John Doe</b></div>
+              <div class="fcl-name content_center"><b><?php echo $random_name[array_rand($random_name)]; ?></b></div>
               <div class="fcl-action">
                 <button title="Download" class="fcl-button content_center">
                   <?php require ($_SERVER['LEXUS'].'img/icon/pdf.svg')?>
@@ -42,15 +42,15 @@
             </div>
             <div class="fcl-content">
               <?php for ($j=1; $j <= rand(1,5); $j++) { ?>
-                <div class="fcl-content-row">
+                <a aria-label="Link_Title" title="Link_Title" class="fcl-content-row" href="finance-calculator/detail.php">
 				  <div class="fcl-left">
-				    <div class="fcl-label">NX 250</div>
+				    <div class="fcl-label"><?php echo $random_model[array_rand($random_model)]; ?></div>
 				    <div class="fcl-type">Luxury Black / Dark Rose</div>
 				  </div>
 				  <div class="fcl-right">
-				    <div class="fcl-payment">Credit</div>
+				    <div class="fcl-payment"><?php echo $random_payment[array_rand($random_payment)]; ?></div>
 				  </div>
-				</div>
+				</a>
               <?php } ?>
             </div>
           </div>

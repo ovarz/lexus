@@ -1,1 +1,3 @@
-@font-face{font-family:'Nobel Book';font-style:normal;font-weight:normal;src:local('Nobel Book'),url('fonts/NobelBook.woff')format('woff');}
+@font-face{font-family:'Nobel Book';font-style:normal;font-weight:200;font-display:swap;src:url('fonts/NobelWGL-Light.woff2')format('woff2');}
+@font-face{font-family:'Nobel Book';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/NobelWGL-Book.woff2')format('woff2');}
+@font-face{font-family:'Nobel Book';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/NobelWGL-Bold.woff2')format('woff2');}

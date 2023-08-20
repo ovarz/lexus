@@ -73,6 +73,21 @@ display:flex; justify-content:space-between;}
 
 
 
+.default-tab{margin:var(--size-4) 0; display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--size-5),1fr));}
+.default-tab-button{height:var(--size-5); border-bottom:2px solid;}
+
+
+
+.bottom-action{margin:var(--size-4) 0; display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--size-6),1fr)); grid-gap:var(--size-2);}
+
+
+
+.float-total{position:sticky; bottom:0;}
+.float-total-box{display:flex; justify-content:space-between; padding:var(--size-3) var(--size-4); font-size:1.3rem;}
+.float-total-price{font-weight:bold;}
+
+
+
 .lexus-product-container{padding:0 var(--size-3); padding-bottom:var(--size-5);}
 .lexus-product-box{width:37vw; max-width:265px; margin:0 var(--size-2); padding:var(--size-3); position:relative;}
 .lpb-name{text-transform:uppercase; font-weight:bold;}
@@ -94,7 +109,25 @@ display:flex; justify-content:space-between;}
 .fcl-content-row{padding:var(--size-3) 0; display:flex; justify-content:space-between; border-top:1px dashed;}
 .fcl-content-row:first-child{border-top:0;}
 .fcl-left, .fcl-right{display:grid; line-height:140%;}
-.fcl-button-full{width:100%; margin-top:var(--size-4);}
+.fcl-button-full{position:sticky; z-index:1000; bottom:var(--size-4); width:100%; margin-top:var(--size-4);}
+
+.detail-finance-calculator-head{display:grid; grid-gap:var(--size-3); align-items:center;}
+.dfch-left{display:grid; grid-gap:var(--size-2); line-height:140%;}
+.dfhc-name{font-size:1.5rem; font-weight:bold; text-transform:uppercase;}
+.dfhc-button{display:flex; align-items:center;}
+.dfhc-button .svgicon{margin-right:var(--size-2); width:auto; height:16px;}
+
+.detail-finance-calculator-content{display:grid; grid-gap:var(--size-3); margin-bottom:var(--size-4); padding-bottom:var(--size-4); border-bottom:1px solid;}
+.dfcc-bottom{padding-bottom:0; border-bottom:0;}
+.dfcc-row{display:grid; grid-gap:var(--size-2); grid-template-columns:1fr 8.857rem var(--size-3); line-height:140%; padding:0.143rem 0; position:relative;}
+.dfcc-sub .dfcc-row{ padding-left:var(--size-4);}
+.dfcc-sub .dfcc-row:before{content:'.'; display:flex; justify-content:center; align-items:center; font-size:2.5rem; font-weight:bold; line-height:0;
+position:absolute; top:0.13rem; left:0;}
+.dfcc-label{text-transform:capitalize;}
+.dfcc-price{text-align:right;}
+.dfcc-action *{width:100%; height:auto;}
+.dfcc-button{align-items:flex-start;}
+
 
 
 
@@ -114,4 +147,7 @@ display:flex; justify-content:space-between;}
 @media screen and (min-width:768px){
   :root, :before, :after{font-size:22px;}
   body{max-width:768px; margin:0 auto;}
+  
+  .detail-finance-calculator-head{grid-template-columns:repeat(2,1fr);}
+  .dfch-right{display:flex; justify-content:flex-end;}
 }
